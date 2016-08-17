@@ -1,0 +1,17 @@
+body{
+  background-color: #E04296;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+}
+h1{
+  margin-top: 35vh;
+  font-size: 100px;
+}
+h2{
+  font-size: 30px;
+}
+
+h2 a{
+  color: blue;
+}
