@@ -4,14 +4,20 @@ body{
   color: white;
   text-align: center;
 }
+
 h1{
   margin-top: 35vh;
   font-size: 100px;
 }
+
 h2{
   font-size: 30px;
 }
 
-h2 a{
+h3{
+  font-size: 20px;
+}
+
+a{
   color: blue;
 }
