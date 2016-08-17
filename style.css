@@ -8,10 +8,12 @@ body{
 h1{
   margin-top: 35vh;
   font-size: 100px;
+  text-shadow: 2px 2px black;
 }
 
 h2{
   font-size: 30px;
+  text-shadow: 1px 1px black;
 }
 
 h3{
