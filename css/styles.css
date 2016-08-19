@@ -36,7 +36,7 @@ h2 {
 	display: table;
 }
 
-button {
+.register{
 	background-color: #F24E18;
 	color: white;
 	border-radius: 5px;
@@ -51,7 +51,7 @@ button {
 	cursor: pointer;
 }
 
-button:hover {
+.register:hover {
 	background-color: #BF3E13;
 }
 
@@ -80,6 +80,10 @@ button:hover {
 	display: table-cell;
   	vertical-align: middle;
 	color: white;
+}
+
+.navclick{
+	cursor: pointer;
 }
 
 ul#nav-links {
@@ -127,7 +131,7 @@ header h1 {
 	margin: 0 0 0.3em 0;
 }
 
-header button {
+header .register {
 	margin: 0 auto;
 	display: block;
 }
