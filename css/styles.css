@@ -2,7 +2,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background-color: white;
 	line-height: 1.5;
-	font-size: 1em;
+	text-align: center;
+	font-size: 16px;
 	margin: 0;
 	color: #FF5C26;
 }
@@ -10,7 +11,7 @@ body {
 p {
 	color: #191919;
 	letter-spacing: 0.03em;
-	font-size: 18px;
+	font-size: 1.1em;
 }
 
 a, b {
@@ -36,7 +37,7 @@ h2 {
 	display: table;
 }
 
-.register{
+.btn {
 	background-color: #F24E18;
 	color: white;
 	border-radius: 5px;
@@ -46,12 +47,16 @@ h2 {
 	font-size: 16px;
 	padding: 0.7em 1em;
 	font-weight: 500;
-	width: 150px;
-	height: 40px;
+	width: 9.375em;
+	height: 2.5em;
 	cursor: pointer;
 }
 
-.register:hover {
+.btn a {
+	color: white;
+}
+
+.btn:hover {
 	background-color: #BF3E13;
 }
 
@@ -115,7 +120,7 @@ ul#nav-links {
 header {
 	text-align: center;
 	margin-top: 3.6em;
-	height: 720px;
+	height: 45em;
 	background: white;
 	display: block;
 }
@@ -127,11 +132,11 @@ header img {
 }
 
 header h1 {
-	font-size: 4.5em;
+	font-size: 4.4em;
 	margin: 0 0 0.3em 0;
 }
 
-header .register {
+header .btn {
 	margin: 0 auto;
 	display: block;
 }
@@ -141,18 +146,14 @@ header .register {
 
 section {
 	display: block;
-	min-height: 400px;
+	min-height: 25em;
 	width: 100%;
 	background-color: white;
-  	padding: 1em 2em 3em 2em;
+  	padding: 1em 10% 3em 10%;
 }
 
 .alt-section {
 	background-color: #E6E8E6;
-}
-
-section#faq {
-	padding: 1em 10% 3em 10%;
 }
 
 section#faq p, section#faq h3 {
@@ -165,8 +166,17 @@ section#faq p, section#faq h3 {
 	flex-wrap: wrap;
 }
 
+.columns {
+	margin: 0 auto;
+}
+
 section#faq #finalFAQ p, section#faq #finalFAQ h3 {
 	text-align: center !important;
+}
+
+#finalFAQ.row {
+	margin: 0 auto;
+	width: 50%;
 }
 
 #faq-col-1, #faq-col-2 {
@@ -177,7 +187,7 @@ section#faq #finalFAQ p, section#faq #finalFAQ h3 {
 
 /** Footer **/
 footer {
-	height: 110px;
+	height: 6.5em;
 	width: 100%;
 	bottom: 0;
 	display: flex;
@@ -191,7 +201,7 @@ footer p {
 	display: block;
 	align-self: center;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-weight: bold;
 }
 
@@ -205,4 +215,30 @@ footer #footer-buttons a {
 	color: white;
 }
 
+/** Media Queries **/
+@media (max-width: 480px) {
+	#nav {
+		max-width: 600px;
+	}
+
+	body {
+		font-size: 14px;
+	}
+
+	#faq-col-1, #faq-col-2 {
+		width: 100%;
+	}
+
+	section {
+		padding: 1em 5%;
+	}
+
+	#about .six {
+		width: 100%;
+	}
+
+	header {
+		height: 27.5em;
+	}
+}
 
