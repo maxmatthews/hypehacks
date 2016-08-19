@@ -36,7 +36,7 @@ h2 {
 	display: table;
 }
 
-.register{
+.btn {
 	background-color: #F24E18;
 	color: white;
 	border-radius: 5px;
@@ -51,7 +51,11 @@ h2 {
 	cursor: pointer;
 }
 
-.register:hover {
+.btn a {
+	color: white;
+}
+
+.btn:hover {
 	background-color: #BF3E13;
 }
 
@@ -131,7 +135,7 @@ header h1 {
 	margin: 0 0 0.3em 0;
 }
 
-header .register {
+header .btn {
 	margin: 0 auto;
 	display: block;
 }
