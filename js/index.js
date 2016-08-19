@@ -52,9 +52,11 @@
 })()
 
 function goHype() {
-	console.log("HYPE");
+    console.log("HYPE");
+    var audio = new Audio('hype.mp3');
+    audio.play()
     $("*").each(function() {
-    	$(this).css('position', "fixed");
+        $(this).css('position', "fixed");
         animateDiv($(this));
     });
 
