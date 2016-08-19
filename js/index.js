@@ -54,6 +54,7 @@
 function goHype() {
     console.log("HYPE");
     var audio = new Audio('hype.mp3');
+    audio.loop = true;
     audio.play()
     $("*").each(function() {
         $(this).css('position', "fixed");
