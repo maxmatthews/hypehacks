@@ -120,7 +120,7 @@ ul#nav-links {
 header {
 	text-align: center;
 	margin-top: 3.6em;
-	height: 45em;
+	padding-bottom: 3em;
 	background: white;
 	display: block;
 }
@@ -216,7 +216,7 @@ footer #footer-buttons a {
 }
 
 /** Media Queries **/
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 	#nav {
 		max-width: 600px;
 	}
@@ -236,9 +236,11 @@ footer #footer-buttons a {
 	#about .six {
 		width: 100%;
 	}
+}
 
-	header {
-		height: 27.5em;
+@media (max-width: 420px) {
+	body {
+		font-size: 12px;
 	}
 }
 
