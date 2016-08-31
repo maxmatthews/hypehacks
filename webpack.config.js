@@ -11,9 +11,6 @@ module.exports = {
 			{test: /\.css/, loaders: ["style", "css"]}
 		]
 	},
-	externals: {
-		jquery: "jQuery"
-	},
 	resolve: {
 		extensions: [".js", ".css"]
 	},
