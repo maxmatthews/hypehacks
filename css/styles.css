@@ -36,7 +36,10 @@ h2 {
 	padding-right: 2em;
 	display: table;
 }
-
+.buttonRow{
+	margin: 0 auto;
+	width:19.5em;
+}
 .btn {
 	background-color: #F24E18;
 	color: white;
@@ -51,7 +54,12 @@ h2 {
 	height: 2.5em;
 	cursor: pointer;
 }
-
+#liveButton{
+	float: right;
+}
+#signupButton{
+	float: left;
+}
 .btn a {
 	color: white;
 }
