@@ -187,7 +187,7 @@ section#faq #finalFAQ p, section#faq #finalFAQ h3 {
 }
 
 #live-container h1 {
-	font-size: 72px;
+	font-size: 4em;
 }
 
 #live-container h2 {
@@ -259,6 +259,7 @@ footer #footer-buttons a {
 }
 
 #live-container a{
-	color: black;
+	/*color: black;*/
+	font-size:0.8em;
 	text-decoration: underline;
 }
