@@ -182,6 +182,18 @@ section#faq #finalFAQ p, section#faq #finalFAQ h3 {
 	width: 50%;
 }
 
+#live-container {
+	margin-top: 10em;
+}	
+
+#live-container h1 {
+	font-size: 72px;
+}
+
+#live-container h2 {
+	color: black;
+}
+
 #sponsor-container a img {
 	width: 35%;
 	height: auto;
